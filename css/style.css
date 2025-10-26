@@ -16,6 +16,7 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .main-container {
@@ -69,7 +70,7 @@ header {
 header img {
   width: 60px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 nav {
@@ -130,6 +131,7 @@ input {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 16px;
+  cursor: pointer;
 }
 
 .filtre__radio {
@@ -287,6 +289,71 @@ input {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/****** Activités ***********/
+
+.activite {
+  margin: 35px 0;
+}
+
+.activite h2 {
+  padding: 30px;
+  margin: 0;
+}
+
+.activite__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.activite__card .card {
+  padding: 0;
+}
+
+.activite__card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 300px;
+  height: 380px;
+}
+
+.activite__card h3 {
+  padding: 20px;
+  margin: 0;
+}
+
+/****** Footer ***********/
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0 20px 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .footer__section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 34%;
+}
+
+.footer__section h3 {
+  margin: 10px 0;
+}
+
+.footer__section ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__section li {
+  list-style: none;
+  padding: 10px 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
