@@ -181,7 +181,6 @@ input {
   border-radius: 50%;
   width: 25px;
   aspect-ratio: 1 / 1;
-  flex: 0 0 auto;
   margin-right: 10px;
   box-sizing: border-box;
 }
@@ -477,12 +476,15 @@ footer .footer-section {
 
   .filtre-search {
     position: relative;
+    display: flex;
+    justify-content: center;
     margin: 10px 0;
     width: 100%;
   }
 
   input {
     padding: 15px 5px;
+    width: 100%;
   }
 
   ::placeholder {
@@ -490,7 +492,7 @@ footer .footer-section {
   }
 
   .filtre-search .search-btn {
-    transform: translateX(-30px);
+    transform: translateX(-15px);
     padding: 18px;
     border-radius: 15px;
   }
